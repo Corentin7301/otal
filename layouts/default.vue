@@ -1,11 +1,15 @@
 <template>
   <div>
     <Navbar />
-    <social-share display="fixed"/>
-        <Nuxt />
+    <Nuxt />
     <Footer />
   </div>
 </template>
 
 <style lang="scss" scoped>
+  div {
+    width: 100%;
+
+  }
+
 </style>
