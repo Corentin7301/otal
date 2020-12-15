@@ -30,6 +30,8 @@
     justify-content: space-around;
     border-top: solid 1.5px $black;
     padding-top: 20px;
+    z-index: 1;
+    background-color: white;
 
     svg {
       width: 35px;

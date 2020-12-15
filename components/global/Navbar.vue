@@ -2,7 +2,7 @@
   <nav>
     <div class="spacer"></div>
     <nuxt-link to="/">
-      <img src="@/assets/img/logo1.svg" alt="logo">
+      <img src="@/assets/img/logo1.png" alt="logo">
     </nuxt-link>
     <nuxt-link to="/save">
       <img src="@/assets/img/save.svg" alt="save">
@@ -25,7 +25,6 @@
 
 <style lang="scss" scoped>
   nav {
-    background-color: white;
     margin-top: 30px;
     width: 100%;
     height: 65px;
@@ -36,6 +35,8 @@
     border-bottom: solid 1.5px $black;
     position: sticky;
     top: 0;
+    z-index: 1;
+    background-color: white;
 
     img {
       height: 37px;

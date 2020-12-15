@@ -15,7 +15,7 @@ export default {
         rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'
       },
       {
-        rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand&display=swap'
+        rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap'
       }
     ]
   },

@@ -1,6 +1,8 @@
 <template>
   <div class="container" id="home">
-      PAGE ACCUEIL
+      <CardNav />
+      <h1>Otal</h1>
+      <CardFil />
   </div>
 </template>
 
@@ -27,10 +29,16 @@ export default {
 <style lang="scss">
 #home {
   width: 100%;
-  height: 700px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: $black;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0;
+}
+
 }
 
 </style>
