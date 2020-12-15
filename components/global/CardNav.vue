@@ -30,10 +30,11 @@
     width: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
-    &::-webkit-scrollbar {
+    &::-webkit-scrollbar { /* Chrome */
       display: none;
     }
-
+    scrollbar-width: none; /* Firefox 64 */
+    -ms-overflow-style: none; /* IE 11 */
 
     img {
       margin-right: 10px;
