@@ -1,6 +1,6 @@
 <template>
   <div class="container" id="">
-      Contact
+      Découvrir
   </div>
 </template>
 

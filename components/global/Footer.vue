@@ -46,4 +46,11 @@
     }
   }
 
+    @media screen and (min-width: 1280px) {
+        #footer {
+          display: none;
+        }
+
+    }
+
 </style>

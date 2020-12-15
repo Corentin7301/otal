@@ -14,3 +14,11 @@
     background: rgb(204, 204, 204);
     border-radius: 10px;
   }
+
+  .scroll-color-colors { /*Firefox */
+    scrollbar-color: rgb(180, 180, 180) rgb(204, 204, 204);
+  }
+
+  .scroll-width-thin { /*Firefox */
+    scrollbar-width: thin;
+  }

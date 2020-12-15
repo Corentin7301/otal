@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card scroll-color-colors scroll-width-thin">
     <img src="~/assets/img/ui_ux_design.png" alt="ui-ux-design">
     <img src="~/assets/img/illustration.png" alt="illustration">
     <img src="~/assets/img/graphisme.png" alt="graphisme">
@@ -23,6 +23,7 @@
 </script>
 
 <style lang="scss" scoped>
+
   .card {
     display: flex;
     align-items: center;
@@ -41,5 +42,16 @@
 
     }
   }
+
+    @media screen and (min-width: 1280px) {
+      .card {
+        &::-webkit-scrollbar { /* Chrome */
+          display: inherit;
+        }
+        scrollbar-width: inherit; /* Firefox 64 */
+        -ms-overflow-style: inherit; /* IE 11 */
+      }
+
+    }
 
 </style>
