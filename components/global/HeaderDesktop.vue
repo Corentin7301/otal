@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="text">
-      <h2 class="world"><b>World Best Tips</b></h2>
-      <h2 class="otal"><b>Otal</b> By My digital School</h2>
+      <h2 class="world bold">World Best Tips</h2>
+      <h2 class="otal"><span class="bold">Otal</span class="bold"> By My digital School</h2>
     </div>
     <CardNav class="CardNavbar"/>
   </div>
