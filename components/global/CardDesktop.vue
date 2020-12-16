@@ -40,6 +40,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      border-radius: 7px;
     }
 
     img {
@@ -50,26 +51,29 @@
   @media screen and (min-width: 1280px) {
 
 
-      .cardFil {
-        background-color: rgb(233, 233, 233);
-        display: grid;
-        grid-template-columns: repeat(5, 19%);
-        grid-gap: 15px;
+    .cardFil {
+      background-color: rgb(233, 233, 233);
+      display: grid;
+      grid-template-columns: repeat(5, 19%);
+      grid-gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+
+
+      .post {
+        border-radius: 7px;
+        overflow: hidden;
+        height: 224px;
+        display: flex;
+        align-items: center;
         justify-content: center;
-
-        .post {
-          overflow: hidden;
-          height: 224px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        img {
-          height: 100%;
-        }
       }
 
+      img {
+        height: 100%;
+      }
     }
+
+  }
 
 </style>

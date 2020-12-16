@@ -1,7 +1,7 @@
 <template>
   <div class="container" id="">
-    <HeaderProfile />
-    <CardProfile />
+    <HeaderProfil />
+    <CardDesktop />
   </div>
 </template>
 <script>

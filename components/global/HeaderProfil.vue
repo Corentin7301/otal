@@ -3,7 +3,7 @@
 
     <div class="mobile">
       <div class="headerReseau">
-        <div class="headProfil">
+        <div class="headprofil">
           <div class="barreReseaux">
             <img src="~/assets/img/user.jpg" alt="utilisateur">
             <h3>Bastien Manent</h3>
@@ -27,7 +27,7 @@
     </div>
     <div class="desktop">
       <div class="headerReseau">
-        <div class="headProfil">
+        <div class="headprofil">
           <img src="~/assets/img/user.jpg" alt="utilisateur">
           <div class="barreBody">
             <div class="barreText">
@@ -69,7 +69,7 @@
 </script>
 
 <style lang="scss" scoped>
-  .headProfil {
+  .headprofil {
     padding: 0 16px;
     box-shadow: 0px 2px 10px #00000029;
     margin-bottom: 25px;
@@ -135,7 +135,7 @@
       display: block;
       color: $black;
 
-      .headProfil {
+      .headprofil {
         display: flex;
 
         img {

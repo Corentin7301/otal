@@ -24,7 +24,6 @@
     background-color: white;
     align-items: center;
     box-shadow: 0px 3px 6px #0000001F;
-    margin-top: 20px;
 
     h2 {
         display: block;

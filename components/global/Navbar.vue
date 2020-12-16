@@ -35,9 +35,12 @@
 </script>
 
 <style lang="scss" scoped>
-  .mobile {
+nav {
     position: sticky;
     top: 0;
+    z-index: 1;
+
+  .mobile {
     margin-top: 30px;
     width: 100%;
     height: 65px;
@@ -45,8 +48,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 17px;
-    border-bottom: solid 1.5px $black;
-    z-index: 1;
+    border-bottom: solid 1.5px #1619255d;
     background-color: white;
 
     img {
@@ -62,6 +64,7 @@
   .desktop {
     display: none;
   }
+}
 
   @media screen and (min-width: 1280px) {
 
@@ -99,10 +102,9 @@
     }
 
 
-  .mobile {
-    display: none;
+    .mobile {
+      display: none;
+    }
   }
-  }
-
 
 </style>

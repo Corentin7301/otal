@@ -3,7 +3,8 @@
     <CardNav class="CardNav" />
     <h1>Otal</h1>
     <HeaderDesktop class="HeaderDesktop" />
-    <CardFil />
+    <CardFil class="CardFil" />
+    <CardDesktop class="CardDesktop" />
     <nuxt-link to="#">
       <svg id="cercle" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg">
@@ -53,16 +54,24 @@
     #cercle {
       display: none;
     }
+
+    .CardDesktop {
+      display: none;
+    }
   }
 
   @media screen and (min-width: 1280px) {
 
     #home {
+      width: 100%;
       .HeaderDesktop {
         display: flex;
       }
 
-      width: 100%;
+      .CardDesktop {
+        display: block;
+      }
+
 
       h1 {
         display: none;
@@ -80,6 +89,10 @@
         right: 30px;
         width: 50px;
         z-index: 1;
+      }
+
+      .CardFil {
+        display: none;
       }
     }
   }
