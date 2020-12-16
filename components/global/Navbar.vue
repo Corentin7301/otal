@@ -17,9 +17,6 @@
       <nuxt-link to="/explore" class="explore">Découvrir</nuxt-link>
       <input type="text" name="search" id="search" placeholder="Rechercher...">
       <LoginBtn url="/login">Se connecter</LoginBtn>
-      <!-- <nuxt-link to="/save">
-        <img src="@/assets/img/save.svg" alt="save">
-      </nuxt-link> -->
     </div>
 
   </nav>
@@ -93,7 +90,7 @@
         padding: 5px 90px;
         border: 2px solid #B1B1B1;
         border-radius: 24px;
-        margin-right: 450px;
+        margin-right: 340px;
       }
 
       .nuxt-link-exact-active {

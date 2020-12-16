@@ -25,12 +25,13 @@
 
 <style lang="scss" scoped>
   .cardFil {
+    padding: 0 5px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: $black;
     background-color: rgb(233, 233, 233);
     display: grid;
-    grid-template-columns: repeat(3, 123px);
+    grid-template-columns: repeat(3, 33%);
     grid-gap: 3px;
 
     .post {
@@ -39,7 +40,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
     }
 
     img {
@@ -49,28 +49,27 @@
 
   @media screen and (min-width: 1280px) {
 
-    .cards {
-      margin-top: 32px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
 
       .cardFil {
         background-color: rgb(233, 233, 233);
         display: grid;
-        grid-template-columns: repeat(5, 224px);
+        grid-template-columns: repeat(5, 19%);
         grid-gap: 15px;
+        justify-content: center;
 
-        .content {
-          height: 224px;
-          background-color: white;
-          border-radius: 7px;
+        .post {
           overflow: hidden;
+          height: 224px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        img {
+          height: 100%;
         }
       }
 
     }
-  }
 
 </style>
