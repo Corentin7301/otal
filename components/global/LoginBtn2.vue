@@ -2,7 +2,7 @@
 <div>
       <a
         :href="url"
-        class="btnExplore">
+        class="btn-login2">
         <slot/>
       </a>
 </div>
@@ -23,16 +23,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.btnExplore {
-  background-color: $grey;
+.btn-login2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  color: white;
+  color: #f4f4f9c9;
+  background-color: $purple;
   text-decoration: inherit;
-  font-size: 10px;
-  padding: 4px 8px;
+  font-size: 13px;
+  padding: 5px 22px;
   border-radius: 24px;
-  border: 2px solid $grey2;
   text-align: center;
 }
 </style>

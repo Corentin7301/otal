@@ -5,7 +5,7 @@
       <nuxt-link to="/">
         <img src="@/assets/img/logo1.png" alt="logo">
       </nuxt-link>
-      <nuxt-link to="/save">
+      <nuxt-link to="#">
         <img src="@/assets/img/save.svg" alt="save">
       </nuxt-link>
     </div>
@@ -91,7 +91,7 @@
         input {
           text-align: center;
           padding: 5px 90px;
-          border: 2px solid #B1B1B1;
+          border: 2px solid $grey2;
           border-radius: 24px;
           margin-right: 340px;
         }

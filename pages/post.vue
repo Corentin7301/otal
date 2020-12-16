@@ -34,7 +34,7 @@
         </div>
         <div class="footerRight">
           <h3 class="bold">{{post.creator}}</h3>
-          <input type="text" name="commentaire" id="commentaire">
+          <input type="text" name="commentaire" id="commentaire" placeholder="Votre commentaire...">
         </div>
       </div>
     </div>
@@ -56,6 +56,7 @@
 </script>
 
 <style lang="scss">
+
   #postPage {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -107,13 +108,13 @@
         }
 
         .footerLeft {
-            height: 62px;
+          height: 62px;
 
           img {
-              width: 45px;
+            width: 45px;
             height: 45px;
             border-radius: 50%;
-              
+
           }
         }
       }
@@ -167,6 +168,7 @@
       .footerRight {
         display: flex;
         align-items: center;
+
         h3 {
           color: #16192580;
           font-size: 15px;
@@ -177,7 +179,7 @@
           color: $grey;
           font-weight: 500;
           padding: 5px 14px;
-          border: 2px solid #B1B1B1;
+          border: 2px solid $grey2;
           border-radius: 24px;
           margin-right: 0;
           width: 230px;

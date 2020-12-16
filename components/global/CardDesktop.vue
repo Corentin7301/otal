@@ -1,6 +1,6 @@
 <template>
   <div class="cards">
-    <nuxt-link to="/post">
+    <nuxt-link to="/post" class="Postlink">
       <div class="cardFil">
         <div v-for="post in posts" :key="post.id" class="content">
           <div class="post">
@@ -25,6 +25,12 @@
 </script>
 
 <style lang="scss" scoped>
+
+.Postlink {
+  pointer-events: none;
+	cursor: default;
+}
+
   .cardFil {
     padding: 0 5px;
     font-family: 'Montserrat', sans-serif;
@@ -51,6 +57,10 @@
 
   @media screen and (min-width: 1280px) {
 
+.Postlink {
+  pointer-events: inherit;
+	cursor: pointer;
+}
 
     .cardFil {
       background-color: rgb(233, 233, 233);

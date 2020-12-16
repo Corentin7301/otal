@@ -31,7 +31,7 @@ export default {
   font-size: 16px;
   padding: 4px 8px;
   border-radius: 24px;
-  border: 2px solid #B1B1B1;
+  border: 2px solid $grey2;
   text-align: center;
 }
 </style>
