@@ -1,13 +1,14 @@
 <template>
   <div class="cards">
-
-    <div class="cardFil">
-      <div v-for="post in posts" :key="post.id" class="content">
-        <div class="post">
-          <img :src="post.img" alt="post">
+    <nuxt-link to="/post">
+      <div class="cardFil">
+        <div v-for="post in posts" :key="post.id" class="content">
+          <div class="post">
+            <img :src="post.img" alt="post">
+          </div>
         </div>
       </div>
-    </div>
+    </nuxt-link>
   </div>
 </template>
 
