@@ -2,7 +2,7 @@
 <div>
       <a
         :href="url"
-        class="btn-login">
+        class="btnExplore">
         <slot/>
       </a>
 </div>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.btn-login {
+.btnExplore {
   background-color: $grey;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -34,8 +34,5 @@ export default {
   border-radius: 24px;
   border: 2px solid #B1B1B1;
   text-align: center;
-  &:first-child {
-    margin-right: 10px;
-  }
 }
 </style>

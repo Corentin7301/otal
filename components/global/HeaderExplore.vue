@@ -1,7 +1,7 @@
 <template>
   <div class="explore">
     <h1 class="medium">Découvrir</h1>
-    <ExploreBtn url="#">Développement</ExploreBtn>
+    <ExploreBtn url="#" class="margin">Développement</ExploreBtn>
     <ExploreBtn url="#">UX design</ExploreBtn>
   </div>
 </template>
@@ -28,6 +28,10 @@
       color: #B8B9BD;
       font-size: 25px;
       margin: 0 30px 0 14px;
+    }
+
+    .margin {
+      margin-right: 10px;
     }
   }
 

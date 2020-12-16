@@ -14,15 +14,15 @@
       </div>
     </div>
     <div class="desktopExplore">
-    <HeaderDesktopExplore class="HeaderDesktop" />
-    <CardDesktop class="CardDesktop" />
-    <nuxt-link to="#">
-      <svg id="cercle" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-      </svg>
-    </nuxt-link>
+      <HeaderDesktopExplore class="HeaderDesktop" />
+      <CardDesktop class="CardDesktop" />
+      <nuxt-link to="#">
+        <svg id="cercle" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -30,7 +30,7 @@
   export default {
     data() {
       return {
-        
+
       }
     }
   }
@@ -67,50 +67,52 @@
     }
 
   }
+
   .desktopExplore {
     display: none;
   }
 
 
-      @media screen and (min-width: 1280px) {
-        .desktopExplore {
-          display: block;
-          width: 100%;
-      }
-      .HeaderDesktop {
-        display: flex;
-      }
+  @media screen and (min-width: 1280px) {
+    .desktopExplore {
+      display: block;
+      width: 100%;
+    }
 
-      .CardDesktop {
-        display: block;
-      }
+    .HeaderDesktop {
+      display: flex;
+    }
+
+    .CardDesktop {
+      display: block;
+    }
 
 
-      h1 {
-        display: none;
-      }
+    h1 {
+      display: none;
+    }
 
-      .CardNav {
-        display: none;
-      }
+    .CardNav {
+      display: none;
+    }
 
-      #cercle {
-        display: block;
-        color: #ca84f3;
-        position: fixed;
-        bottom: 30px;
-        right: 30px;
-        width: 50px;
-        z-index: 1;
-      }
+    #cercle {
+      display: block;
+      color: #ca84f3;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 50px;
+      z-index: 1;
+    }
 
-      .CardFil {
-        display: none;
-      }
+    .CardFil {
+      display: none;
+    }
 
-          .mobileExplore {
-            display: none;
-            }
-      }
+    .mobileExplore {
+      display: none;
+    }
+  }
 
 </style>
