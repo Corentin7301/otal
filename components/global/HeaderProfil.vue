@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <div class="mobile">
+    <div class="mobileHeaderProfil">
       <div class="headerReseau">
         <div class="headprofil">
           <div class="barreReseaux">
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <div class="desktop">
+    <div class="desktopHeaderProfil">
       <div class="headerReseau">
         <div class="headprofil">
           <img src="~/assets/img/user.jpg" alt="utilisateur">
@@ -126,12 +126,12 @@
     }
   }
 
-  .desktop {
+  .desktopHeaderProfil {
     display: none;
   }
 
   @media screen and (min-width: 1280px) {
-    .desktop {
+    .desktopHeaderProfil {
       display: block;
       color: $black;
 
@@ -207,7 +207,7 @@
 
 
 
-    .mobile {
+    .mobileHeaderProfil {
       display: none;
     }
   }

@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "description": "Petit tuto pour vous apprendre placer vos designs dans un mocku-up afin de les promouvoir encore mieux!",
+    "description": "Petit tuto pour vous apprendre placer vos designs dans un mocku-up afin de les promouvoir encore mieux ! 📲📞📡",
     "category": "UI Design",
     "like": "154",
     "comment": "41",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "description": "Voici la maquette de mon projet de partiel! Partagez-moi vos retours dans les commentaires pour savoir ce que vous en pensez",
+    "description": "Voici la maquette de mon projet de partiel 😊! Partagez-moi vos retours dans les commentaires pour savoir ce que vous en pensez 💪",
     "category": "Maquettage",
     "like": "205",
     "comment": "54",
@@ -20,9 +20,9 @@
   },
   {
     "id": 3,
-    "description": "Voici 8 Tips que j'utilise et qui pourront vous aider en UX Design, n'hésitez pas à commenter pour partager certaines de vos astuces",
+    "description": "Voici 8 Tips que j'utilise et qui pourront vous aider en UX Design, n'hésitez pas à commenter ✍ pour partager certaines de vos astuces 👌",
     "category": "Ux Design",
-    "like": "44",
+    "like": "44", 
     "comment": "21",
     "img": "https://www.cssauthor.com/wp-content/uploads/2014/10/8-Visual-Design-Tips-for-UX-Designers.jpg",
     "creator": "Catalina Vásquez",
@@ -30,7 +30,7 @@
   },
   {
     "id": 4,
-    "description": "Je vous montre comment embellir vos photos à l'aide du logiciel Adobe Lightroom, n'hésitez pas à me partagez vos résultats.",
+    "description": "Je vous montre comment embellir vos photos à l'aide du logiciel Adobe Lightroom, n'hésitez pas à me partagez vos résultats ✏.",
     "category": "Retouche photo",
     "like": "178",
     "comment": "46",
@@ -40,7 +40,7 @@
   },
   {
     "id": 5,
-    "description": "Apprenez à postériser une photo à l'aide d'illustrator grâce à ma fiche détaillée",
+    "description": "Apprenez à postériser une photo à l'aide d'illustrator grâce à ma fiche détaillée 📃",
     "category": "Illustrator",
     "like": "401",
     "comment": "107",
@@ -50,7 +50,7 @@
   },
   {
     "id": 6,
-    "description": "Hey tout le monde, je vous montre en vidéo comment faire une effet avec des débris de verres sur Adobe Photoshop!",
+    "description": "Hey tout le monde 🖐, je vous montre en vidéo 🎞🎬 comment faire une effet avec des débris de verres sur Adobe Photoshop!",
     "category": "Photoshop",
     "like": "227",
     "comment": "52",
@@ -60,7 +60,7 @@
   },
   {
     "id": 7,
-    "description": "Coucous les amis, voici un tuto à suivre si vous voulez apprendre à faire des paysages fantaisistes comme celui-ci à l'aide d'Adobe Illustrator",
+    "description": "Coucous les amis 📣, voici un tuto à suivre si vous voulez apprendre à faire des paysages fantaisistes comme celui-ci à l'aide d'Adobe Illustrator",
     "category": "Illustrator",
     "like": "620",
     "comment": "82",
@@ -70,7 +70,7 @@
   },
   {
     "id": 8,
-    "description": "Salut tout le monde, je compte débuter une série de tutos vidéo pour permettre aux débutants d'apprendre JavaScript, voici le premier épisode disponible",
+    "description": "Yo tout le monde 🤙, je compte débuter une série de tutos vidéo pour permettre aux débutants d'apprendre JavaScript, voici le premier épisode disponible ☝",
     "category": "JavaScript",
     "like": "350",
     "comment": "57",
@@ -80,7 +80,7 @@
   },
   {
     "id": 9,
-    "description": "Pour tout ceux qui voudraient se lancer sur excel, voici toutes les bases que vous devaient apprendre pour commencer à maitriser le logiciel",
+    "description": "Pour tout ceux qui voudraient se lancer sur excel, voici toutes les bases que vous devaient apprendre pour commencer à maitriser le logiciel 👌👍",
     "category": "Excel",
     "like": "119",
     "comment": "31",
@@ -90,7 +90,7 @@
   },
   {
     "id": 10,
-    "description": "Découvrez le logiciel Adobe Premiere Pro grâce à mes explications afin de mieux comprendre les bases du montage vidéo",
+    "description": "Découvrez le logiciel Adobe Premiere Pro grâce à mes explications afin de mieux comprendre les bases du montage vidéo 🎬🎥📺📹",
     "category": "Premiere Pro",
     "like": "301",
     "comment": "54",
@@ -100,7 +100,7 @@
   },
   {
     "id": 11,
-    "description": "N'hésitez pas à me donner des conseils sur ma base de donnée créée à but d'entrainement pour apprendre le php",
+    "description": "N'hésitez pas à me donner des conseils sur ma base de donnée créée à but d'entrainement pour apprendre le php 🙏🤝",
     "category": "Php",
     "like": "228",
     "comment": "45",
@@ -110,7 +110,7 @@
   },
   {
     "id": 12,
-    "description": "Pour ceux qui seraient en manque d'inspiration dans leur création de portfolio, voici 13 modèles pour vous inspirer",
+    "description": "Pour ceux qui seraient en manque d'inspiration dans leur création de portfolio, voici 13 modèles pour vous inspirer 😁",
     "category": "Portfolio",
     "like": "666",
     "comment": "81",
@@ -120,7 +120,7 @@
   },
   {
     "id": 13,
-    "description": "Je vous partage un tuto qui m'a bien aidé lors de mon apprentissage sur le logiciel Adobe InDesign",
+    "description": "Je vous partage un tuto qui m'a bien aidé lors de mon apprentissage sur le logiciel Adobe InDesign 😇🦾",
     "category": "In design",
     "like": "475",
     "comment": "73",
@@ -130,7 +130,7 @@
   },
   {
     "id": 14,
-    "description": "Apprenez à manier WordPress pour faire des sites rapidement et simplement. Ça vous sera très utile surtout si vous n'aimez pas coder de A à Z",
+    "description": "Apprenez à manier WordPress pour faire des sites rapidement et simplement. Ça vous sera très utile surtout si vous n'aimez pas coder de A à Z 🤜🤛👆",
     "category": "WordPress",
     "like": "299",
     "comment": "35",
@@ -140,7 +140,7 @@
   },
   {
     "id": 15,
-    "description": "Ajoutez l'effet désintégration dans vos montages photshop pour avoir un rendu modern et design",
+    "description": "Ajoutez l'effet désintégration dans vos montages photoshop pour avoir un rendu moderne et design",
     "category": "Photoshop",
     "like": "406",
     "comment": "51",

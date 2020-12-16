@@ -48,7 +48,7 @@
         &::-webkit-scrollbar { /* Chrome */
           display: inherit;
         }
-        scrollbar-width: inherit; /* Firefox 64 */
+        scrollbar-width: thin; /* Firefox 64 */
         -ms-overflow-style: inherit; /* IE 11 */
       }
 
