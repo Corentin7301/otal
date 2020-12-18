@@ -7,9 +7,9 @@
           <div class="barreReseaux">
             <img src="~/assets/img/user.jpg" alt="utilisateur">
             <h3>Bastien Manent</h3>
-            <nuxt-link to="https://www.instagram.com/"><i class="fab fa-instagram"></i></nuxt-link>
-            <nuxt-link to="https://twitter.com/"><i class="fab fa-twitter"></i></nuxt-link>
-            <nuxt-link to="https://fr.linkedin.com/"><i class="fab fa-linkedin"></i></nuxt-link>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://fr.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </div>
           <p class="bio">Plus besoin de me présenter, tous le monde me connait, mais vous pouvez me suivre sur mes
             réseaux
